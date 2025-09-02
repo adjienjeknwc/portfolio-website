@@ -10,7 +10,7 @@
     /* Custom font import for a more playful look */
     @import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap');
     body {
-      font-family: 'Comic Sans MS', cursive;
+      font-family: Arial, Helvetica, sans-serif;
     }
     
     /* Custom styles for the project modal overlay */
@@ -251,6 +251,38 @@
       </div>
     </div>
   </section>
+
+  <section id="portfolio-collage" class="py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-sm uppercase font-semibold text-gray-500 text-center mb-2">Portfolio</h3>
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">My Amazing Works</h2>
+      
+
+      <!-- Collage Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- First Image -->
+        <div class="relative overflow-hidden rounded-2xl shadow-lg">
+          <img src="https://placehold.co/600x600/e0e0e0/555?text=Image+1" alt="Collage Image 1" class="w-full h-auto object-cover">
+        </div>
+        
+        <!-- Nested Grid -->
+        <div class="grid grid-cols-1 gap-4">
+          <div class="relative overflow-hidden rounded-2xl shadow-lg">
+            <img src="https://placehold.co/600x400/e0e0e0/555?text=Image+2" alt="Collage Image 2" class="w-full h-auto object-cover">
+          </div>
+          <div class="relative overflow-hidden rounded-2xl shadow-lg">
+            <img src="https://placehold.co/600x400/e0e0e0/555?text=Image+3" alt="Collage Image 3" class="w-full h-auto object-cover">
+          </div>
+        </div>
+        
+        <!-- Third Image -->
+        <div class="relative overflow-hidden rounded-2xl shadow-lg">
+          <img src="https://placehold.co/600x600/e0e0e0/555?text=Image+4" alt="Collage Image 4" class="w-full h-auto object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Contact Section -->
   <section id="contact" class="py-20 bg-gray-50">
